@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisans - Artisan Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Artisan Market</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="artisans.html" class="active">Artisans</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button class="login-btn" id="loginBtn">Login</button>
+            <button class="signup-btn" id="signupBtn">Sign Up</button>
+        </div>
+    </header>
+    
+    <section class="artisans-section">
+        <h1>Meet Our Artisans</h1>
+        <div class="artisans-grid">
+            <div class="artisan-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2" alt="Sarah Johnson" class="artisan-image">
+                <h3>Sarah Johnson</h3>
+                <p class="artisan-craft">Pottery</p>
+                <p class="artisan-bio">Specializing in hand-thrown stoneware with unique glazes.</p>
+                <a href="shop.html?artisan=sarah" class="view-work">View Work</a>
+            </div>
+            <div class="artisan-card">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a" alt="Michael Chen" class="artisan-image">
+                <h3>Michael Chen</h3>
+                <p class="artisan-craft">Woodworking</p>
+                <p class="artisan-bio">Creating functional art from sustainably sourced hardwoods.</p>
+                <a href="shop.html?artisan=michael" class="view-work">View Work</a>
+            </div>
+            <div class="artisan-card">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="Elena Rodriguez" class="artisan-image">
+                <h3>Elena Rodriguez</h3>
+                <p class="artisan-craft">Textiles</p>
+                <p class="artisan-bio">Handwoven textiles using traditional techniques with modern designs.</p>
+                <a href="shop.html?artisan=elena" class="view-work">View Work</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </div>
+        <p>&copy; 2023 Local Artisan Marketplace. All rights reserved.</p>
+    </footer>
+    
+    <!-- Include the same modals as index.html -->
+    <script src="script.js"></script>
+</body>
+</html>
